@@ -7,7 +7,7 @@ source("R/crepe_functions.R")
 list(
   list(
     tar_target(bowl,    take_bowl()),
-    tar_target(flour,   add_flour(bowl, 550)),
+    tar_target(flour,   add_flour(bowl, 375)),
     tar_target(dry_mix, add_sugar(flour, 75)),
     tar_target(egg_mix, add_egg(dry_mix, 6)),
     tar_target(
